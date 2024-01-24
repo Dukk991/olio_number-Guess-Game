@@ -23,7 +23,7 @@ void Game::play()
     srand(time(0));
     int randomNumber = rand() % maxNumber + 1;
 
-    cout << "Give your guess between 1 - 10" << endl;
+    cout << "Give your guess between 1 and " << maxNumber << endl;
 
     while (playerGuess != randomNumber)
     {
