@@ -29,8 +29,7 @@ void Game::play()
     {
         numOfGuesses++;
         cin >> playerGuess;
-        cout << endl;
-
+        
         if (playerGuess > maxNumber) {
             cout << "Your guess is larger than the biggest possible value" << endl;
         }
