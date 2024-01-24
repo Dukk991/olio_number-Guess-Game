@@ -30,13 +30,13 @@ void Game::play()
         numOfGuesses++;
         cin >> playerGuess;
         
-        if (playerGuess > maxNumber) {
+        /*if (playerGuess > maxNumber) {
             cout << "Your guess is larger than the biggest possible value" << endl;
-        }
+        }*/
 
-        if (playerGuess < 1) {
+        /*if (playerGuess < 1) {
             cout << "Your guess is smaller than the lowest possible value" << endl;
-        }
+        }*/
 
         if (playerGuess > randomNumber && playerGuess <= maxNumber) {
             cout << "Your guess is too big" << endl;
