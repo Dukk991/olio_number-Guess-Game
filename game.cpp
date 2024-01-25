@@ -5,10 +5,8 @@
 
 using namespace std;
 
-Game::Game(int)
+Game::Game(int maxNumber)
 {
-    cout << "Give maximium value: " << endl;
-    cin >> maxNumber;
     cout << "GAME CONSTRUCTOR: object initialized with " << maxNumber << " as maximium value" << endl;
 }
 
